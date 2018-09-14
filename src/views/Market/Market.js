@@ -63,12 +63,12 @@ class Forms extends Component {
                 </FormGroup>
                 <FormGroup row>
                   <Col xs="2">
-                    <Label htmlFor="distribuidora">Cep</Label>
-                    <Input type="text" id="distribuidora" placeholder="00000-000" />
+                    <Label htmlFor="cep">Cep</Label>
+                    <Input type="text" id="cep" placeholder="00000-000" />
                   </Col>
                   <Col xs="6">
-                    <Label htmlFor="quantidadeEstoque">Logradouro</Label>
-                    <Input type="number" id="quantidadeEstoque" min="0" max="999" />
+                    <Label htmlFor="logradouro">Logradouro</Label>
+                    <Input type="text" id="logradouro" />
                   </Col>
                   <Col xs="4">
                     <Label htmlFor="valor">Número</Label>
